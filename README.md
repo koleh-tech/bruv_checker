@@ -13,4 +13,23 @@ myapp/
 
 # Running
 
-TODO
+Most of the commands to get setup and generate the static website are in the makefile:
+
+### Install dependencies:
+
+```
+make install_dependencies
+```
+
+### Generate static website:
+
+```
+make generate_static_app
+```
+
+#### Serve website locally for debugging etc.:
+
+```
+make serve_app
+```
+
