@@ -5,7 +5,7 @@ from main import main
 
 app_ui = ui.page_fluid(
     ui.h2("BRUV Checker"),
-    ui.a("Link to source code", href="https://github.com/koleh-tech/bruv_checker")
+    ui.a("Link to source code", href="https://github.com/koleh-tech/bruv_checker"),
     ui.input_file("file", "File"),
     ui.output_text_verbatim("txt"),
 )
